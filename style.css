@@ -1,0 +1,21 @@
+h3 {
+    font-size: 25px !important;
+    color: black !important;
+}
+
+canvas {
+    border:5px;
+    border-color: black;
+    animation-name: Sid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Sid{
+    from{box-shadow: 10,10,10 whitesmoke;}
+    to{box-shadow: 10,10,10 black;}
+}
+
+body{
+    background-color: darkcyan;
+}
